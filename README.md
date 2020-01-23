@@ -16,3 +16,5 @@ Open `pom.xml` and set `<packaging>war</packaging>`
 Run `mvn clean install` inside the project directory to generate the war file. war file is available at ./target/filename.war.
 
 Now deploy this in any container.
+
+(Resource)[https://javabrains.io/courses/spring_bootquickstart/]
