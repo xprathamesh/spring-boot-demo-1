@@ -17,4 +17,4 @@ Run `mvn clean install` inside the project directory to generate the war file. w
 
 Now deploy this in any container.
 
-(Resource)[https://javabrains.io/courses/spring_bootquickstart/]
+[Resource](https://javabrains.io/courses/spring_bootquickstart/)
