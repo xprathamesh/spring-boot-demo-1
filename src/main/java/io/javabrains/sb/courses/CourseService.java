@@ -10,6 +10,7 @@ import org.springframework.stereotype.Service;
 /* 
  * Spring looks at service, creates new instance and registers it as one
  */
+
 @Service
 public class CourseService {
 	
@@ -42,7 +43,6 @@ public class CourseService {
 //				topics.remove(i);
 //			}
 //		}
-		
 		courseRepository.deleteById(id);
 	}
 }

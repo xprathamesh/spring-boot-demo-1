@@ -16,6 +16,6 @@ public interface CourseRepository extends CrudRepository<Course, String>{
 //// examples
 //	public List<Course> findByName(String name);
 //	public List<Course> findByDescription(String desc);
-//	When tring to refer a field of an object, use findByObjectField
+//	When String to refer a field of an object, use findByObjectField
 	public List<Course> findByTopicId(String topicId);
 }
